@@ -19,7 +19,7 @@ int main()
         {
             for (int j = 0; j < n - i - 1; j++)
             {
-                if (mass[j] > mass[j + 1])
+                if (mass[j] < mass[j + 1])
                 {
                     int temp = mass[j];
                     mass[j] = mass[j + 1];
